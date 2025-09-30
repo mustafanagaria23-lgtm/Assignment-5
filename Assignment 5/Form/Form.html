@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <center>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" name="Name" id="name" placeholder="Enter Your Name" size="50" required>  |
+
+            <label for="name">Father Name:</label>
+            <input type="text" name="Father Name" id="name" placeholder="Enter Your Father Name" size="50" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter An Email" size="50" required>  |
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" size="50" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" size="50" required>  |
+
+            <label for="CNIC">CINC/B-Form:</label>
+            <input type="tel" id="CNIC" name="CNIC" placeholder="Enter CNIC/B-Form Number" size="50" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" size="50" required>
+            <br><br>
+
+            <label for="gender">Select gender:</label>
+            <select name="" id="gender" required>
+                <option value="" disabled selected>Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>  <br><br>
+
+            <label for="city">City:</label>
+            <select name="City" id="city" required>
+                <option value="" disabled selected>Select City</option>
+                <option value="karachi">Karachi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Islamabad">Islamabad</option>
+            </select>  <br><br>
+
+            <label for="course">Course</label>
+            <select name="Course" id="Course">
+                <option value="" disabled selected>Select Course</option>
+                <option value="Web Development">Web Development</option>
+                <option value="App Development">App Development</option>
+                <option value="Software Engineering">Software Engineering</option>
+                <option value="Data Science">Data Science</option>
+            </select> <br><br>
+
+            <label for="address">Address:</label>
+            <textarea name="Address" id="address" cols="120" rows="2" placeholder="Enter Your Address" required></textarea>
+            <br><br>
+
+            <label for="last">Last Qualification</label>
+            <select name="Last Qualification" id="last">
+                <option value="" disabled selected>Select</option>
+                <option value="Ninth">Ninth</option>
+                <option value="Matric">Matric</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Graduate">Graduate</option>
+                <option value="Post Graduate">Post Graduate</option>
+            </select>
+            <br><br>
+            <label for="Upload">Picture:</label>
+            <input type="file" name="Upload" placeholder="Upload Your Documents" id="Upload">
+            <hr>
+            <ol align="left">
+                <li>I hereby declare that the information provided above is true and correct to the best of my knowledge and belief.</li>
+                <li>I understand that any false information or misrepresentation may lead to disqualification from the admission process or termination of enrollment.</li>
+                <li>I agree to abide by the rules and regulations of the institution if admitted.</li>
+                <li>I authorize the institution to verify the information provided in this form.</li>
+                <li>I understand that submission of this form does not guarantee admission, and I will be notified of the admission decision separately.</li>
+            </ol>
+
+            <br><br><br>
+            <input type="submit" value="Submit" style="background-color: blue; color: white; padding: 5px 200px; border: none; border-radius: 5px; cursor: pointer;">
+            <br><br>
+            <input type="reset" value="Reset" style="background-color: red; color: white; padding: 5px 200px; border: none; border-radius: 5px; cursor: pointer;">
+            <br><br>
+        </form>
+    </center>
+</body>
+</html>
